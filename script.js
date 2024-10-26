@@ -9,7 +9,7 @@ document.getElementById('chat-form').addEventListener('submit', function(e) {
 
  async function chatgptify(input) {
     try {
-        const response = await fetch('http://git:3000/api/imitate', {
+        const response = await fetch('http://LocalHost:3000/api/imitate', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
